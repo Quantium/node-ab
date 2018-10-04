@@ -7,8 +7,9 @@
   },
   "dependencies": {
     "colors": "~0.6.0",
-    "optimist": "^0.6.1",
-    "express": "*"
+    "express": "*",
+    "npm": "^6.4.1",
+    "optimist": "^0.6.1"
   },
   "repository": {
     "type": "git",
