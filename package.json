@@ -9,7 +9,8 @@
     "colors": "~0.6.0",
     "express": "*",
     "npm": "^6.6.0",
-    "optimist": "^0.6.1"
+    "optimist": "^0.6.1",
+    "snyk": "^1.232.0"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,10 @@
     "http"
   ],
   "author": "Bruce Dou <doubaokun@gmail.com>",
-  "url": "https://github.com/doubaokun/node-ab/blob/master/LICENSE-MIT"
+  "url": "https://github.com/doubaokun/node-ab/blob/master/LICENSE-MIT",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
