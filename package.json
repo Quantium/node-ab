@@ -8,7 +8,7 @@
   "dependencies": {
     "colors": "~0.6.0",
     "express": "*",
-    "npm": "^6.6.0",
+    "npm": "^6.13.4",
     "optimist": "^0.6.1"
   },
   "repository": {
